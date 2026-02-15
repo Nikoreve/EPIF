@@ -1,0 +1,186 @@
+{
+  "class_0": {
+    "title": "Low Risk Profile",
+    "description": "The primary goal of this profile is not the restoration of the older adult’s condition, but rather:",
+    "focus": [
+      "Maintenance of functional capacity",
+      "Prevention of risk escalation",
+      "Avoidance of transition to a higher risk class"
+    ],
+    "interventions": [
+      {
+        "code": "exercise",
+        "title": "💪 Exercise and physical activity",
+        "items": [
+          "Programs such as the Otago Exercise Program or similar, aimed at maintaining functional capacity and preventing deterioration",
+          "Implementation 2–3 or 3–5 times per week with emphasis on adherence and gradual increase in difficulty",
+          "Weekly exercise program with emphasis on: Balance, Lower-limb strengthening, Light aerobic activity"
+        ]
+      },
+      {
+        "code": "indoor_interventions",
+        "title": "🏠 Interventions for indoor environments",
+        "items": [
+          "Non-slip mats",
+          "Installation of grab bars in the shower/toilet",
+          "Removal of obstacles in crossing points",
+          "Adequate lighting along the route to the bathroom",
+          "Correction of lighting in hallways/stairs",
+          "Keeping essential items within easy reach"
+        ]
+      },
+      {
+        "code": "outdoor_interventions",
+        "title": "🌲 Interventions for outdoor environments",
+        "items": [
+          "Use of footwear with non-slip soles",
+          "Avoidance of uneven surfaces, especially in wet conditions",
+          "Caution on sidewalks, curbs, and crossings without clear visual marking",
+          "Avoidance of rushing and multitasking"
+        ]
+      },
+      {
+        "code": "education_behavioral",
+        "title": "🎓 Education and behavioral interventions",
+        "items": [
+          "Training in safe position changes (sit-to-stand)",
+          "Enhancement of risk awareness without fostering fear",
+          "Periodic vision and footwear assessment"
+        ]
+      },
+      {
+        "code": "medical_monitoring",
+        "title": "🩺 Medical and preventive monitoring",
+        "items": [
+          "Regular preventive check-ups",
+          "Routine vision examination",
+          "Vitamin D supplementation in cases of osteoporosis",
+          "Reassessment of medication",
+          "Discussion of dizziness, drowsiness, or falls in relation to medication"
+        ]
+      }
+    ]
+  },
+
+  "class_1": {
+    "title": "Moderate Risk Profile",
+    "description": "The preventions of this profile mainly focus on:",
+    "focus": [
+      "Safe nighttime mobility",
+      "Modifications of bedroom/routes",
+      "Medication review",
+      "Maintenance of balance/strength/gait",
+      "Reduction of injury in osteoporosis"
+    ],
+    "interventions": [
+      {
+        "code": "exercise",
+        "title": "💪 Exercise and physical activity",
+        "items": [
+          "Programs such as the Otago Exercise Program, Tai Chi or similar, aimed at maintaining functional capacity and preventing deterioration",
+          "Weekly exercise program with emphasis on: Balance, Lower-limb strengthening, Light aerobic activity"
+        ]
+      },
+      {
+        "code": "indoor_interventions",
+        "title": "🏠 Interventions for indoor environments",
+        "items": [
+          "lighting near the bed",
+          "Adequate lighting along pathways",
+          "Avoidance of rushing after waking",
+          "Use of stable footwear placed next to the bed",
+          "Removal of obstacles in walkways",
+          "Stable support point near the bed",
+          "Safe bed height",
+          "Installation of grab bars in the bathroom",
+          "Non-slip mats"
+        ]
+      },
+      {
+        "code": "outdoor_interventions",
+        "title": "🌲 Interventions for outdoor environments",
+        "items": [
+          "Use of footwear with non-slip soles",
+          "Avoidance of uneven surfaces",
+          "Caution on sidewalks, curbs, and crossings",
+          "Avoidance of rushing and multitasking"
+        ]
+      },
+      {
+        "code": "education_behavioral",
+        "title": "🩺 Medical and preventive monitoring",
+        "items": [
+          "Regular preventive check-ups",
+          "Routine vision examination",
+          "Discussion of dizziness, drowsiness, or falls related to medication",
+          "Necessary reassessment of medication"
+        ]
+      }
+    ]
+  },
+
+  "class_2": {
+    "title": "High Risk Profile",
+    "description": "The preventions of this profile mainly focus on:",
+    "focus": [
+      "Comprehensive multifactorial assessment",
+      "Multisectoral interventions",
+      "Individualization based on risk profile"
+    ],
+    "interventions": [
+      {
+        "code": "exercise",
+        "title": "💪 Exercise and physical activity",
+        "items": [
+          "Tai Chi",
+          "Otago Exercise Program",
+          "Physiotherapy programs for balance, strengthening, and functional transitions"
+        ]
+      },
+      {
+        "code": "indoor_interventions",
+        "title": "🏠 Interventions for indoor environments",
+        "items": [
+          "Adequate lighting",
+          "Non-slip rugs",
+          "Removal of obstacles",
+          "Use of stable footwear",
+          "Installation of grab bars in bathroom and bedroom",
+          "Avoidance of stairs or increased caution if unavoidable"
+        ]
+      },
+      {
+        "code": "outdoor_interventions",
+        "title": "🌲 Interventions for outdoor environments",
+        "items": [
+          "Use of footwear with non-slip soles",
+          "Avoidance of slippers/loose shoes",
+          "Avoidance of uneven surfaces",
+          "Caution on sidewalks, curbs, and crossings",
+          "Avoidance of rushing and multitasking"
+        ]
+      },
+      {
+        "code": "education_behavioral",
+        "title": "🎓 Management of fear of falling",
+        "items": [
+          "Enhancement of risk awareness without intimidation",
+          "Enhancement of self-efficacy",
+          "Combination of exercise and environmental modifications"
+        ]
+      },
+      {
+        "code": "medical_monitoring",
+        "title": "🩺 Medical and preventive monitoring",
+        "items": [
+          "Regular preventive check-ups",
+          "Vision examination",
+          "Controlled rising from seated or lying position",
+          "Vitamin D supplementation in osteoporosis",
+          "Investigation of dizziness, drowsiness, or falls",
+          "Regular reassessment of medication"
+        ]
+      }
+    ]
+  }
+}

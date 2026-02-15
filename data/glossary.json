@@ -1,0 +1,90 @@
+{
+    "interpretation": [
+        {
+            "factor": "Age",
+            "description": "The model accepts ages between 65 and 80 years."
+        },
+        {
+            "factor": "Pills Per Day",
+            "description": "Number of pills taken per day (i.e. psychotropic or other). The range of values is limited from 0 to 5 pills."
+        },
+        {
+            "factor": "Blood Test",
+            "description": "Annual routine blood tests examined. Enter yes if examined."
+        },
+        {
+            "factor": "Balance Deficits",
+            "description": "Instability in walking and standing balance. Enter yes if present."
+        },
+        {
+            "factor": "Cardiovascular Problems",
+            "description": "Any condition affecting the heart or blood vessels. Enter yes if present."
+        },
+        {
+            "factor": "Osteoporosis",
+            "description": "Osteoporosis, Enter yes if present."
+        },
+        {
+            "factor": "Diabetes",
+            "description": "Diabetes. Enter yes if present."
+        },
+        {
+            "factor": "Vertigo",
+            "description": "Vertigo. Enter yes if present."
+        },
+        {
+            "factor": "Physical Activity",
+            "description": "Type of physical activity. Select between 'None', 'Walk/Light activity', 'Intensive Activity'."
+        },
+        {
+            "factor": "BBS-Score",
+            "description": "Berg Balance Scale score (baseline assessment) - A tool to evaluate balance in older adults. The model accepts values between 0 to 56. Greater score the better. Download the instructions paper for additional details, which can be found on the next section of the page."
+        },
+        {
+            "factor": "FICSIT4-Score",
+            "description": "Frailty and Injuries: Cooperative Studies of Intervention Techniques score (baseline assessment)- A tool to evaluate the static balance of a person, with a score range of 0-28. Download the instructions paper for additional details, which can be found on the next section of the page."
+        },
+        {
+            "factor": "ShortFESI-Score",
+            "description": "Short Falls Efficay Scale International score questionnaire (baseline assessment) - A tool to measure the related fear or concerns of falls. The score ranges from 7 to 28. Lower score indicates lower fear of falling.  Download the instructions paper for additional details, which can be found on the next section of the page."
+        },
+        {
+            "factor": "TUG-Score",
+            "description": "Timed Up-and-Go test score (baseline assessment) - A tool to assess mobility and evaluate balance in older adults. Measurement unit is in seconds. The model accepts a floating point between 0 and 15 seconds. Less score the better.  Download the instructions paper for additional details, which can be found on the next section of the page."
+        },
+        {
+            "factor": "Days of hospitalization",
+            "description": "Number of hospitalization days after the fall incident. Max value for each incident is set to 20."
+        },
+        {
+            "factor": "Fall Cause",
+            "description": "Cause or mechanism of the fall. Select one option for each incident. If the cause is not in the list then enter the option 'other'."
+        },
+        {
+            "factor": "Fall Location",
+            "description": "Location of the fall. Select one option (either indoor or outdoor) for each incident. If the location is not in the list then enter the option 'other'."
+        },
+        {
+            "factor": "Fall Time",
+            "description": "Time of the day the fall occurred. Select one option for each incident."
+        }
+    ],
+    "assessment": [
+        {
+            "factor": "BBS_Score",
+            "link": "Berg-Balance-Scale_Website.pdf"
+        },
+        {
+            "factor": "FICSIT4_Score",
+            "link": "FICSIT4_Score_Description.pdf"
+        },
+        {
+            "factor": "ShortFESI_Score",
+            "link": "Short-FESI_Questionnaire.pdf"
+        },
+        {
+            "factor": "TUG_Score",
+            "link": "Timed-Up-and-Go_Test_Description.pdf"
+        }
+    ]
+}

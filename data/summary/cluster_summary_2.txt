@@ -1,0 +1,50 @@
+• Elders: 31<br>
+• Falls: 111<br><br>
+
+• Falls per elder: 3.58 (M) | 0.81 (SD)<br>
+• Age (Years): 71.10 (M) | 3.60 (SD)<br>
+• Berg Balance Score [Higher=Better]: 43.26 (M) | 6.99 (SD)<br>
+• Four Stage Balance Test Score [Higher=Better]: 18.06 (M) | 3.67 (SD)<br>
+• Total Hospital Admissions: 1.52 (M) | 0.51 (SD)<br>
+• Minimum Days at Hospital : 0.00 (M) | 0.00 (SD)<br>
+• Pills Per Day (Polypharmacy): 1.19 (M) | 1.30 (SD)<br>
+• Physical Activity (1|None, 2|Walk, 3|Intense): 1.71 (M) | 0.69 (SD)<br>
+• Short FESI Score [Higher=Worse]: 16.55 (M) | 3.53 (SD)<br>
+• TUG Test (seconds) [Lower=Better]: 12.09 (M) | 1.60 (SD)<br>
+
+<br>
+
+##### Health Conditions (presents)
+• Cardiovascular Problems: 22.58%<br>
+• Recent Blood Test: 93.55%<br>
+• Balance Deficits: 90.32%<br>
+• Osteoporosis: 12.90%<br>
+• Diabetes: 16.13%<br>
+• Vertigo: 48.39%<br>
+
+<br>
+
+##### Fall Sites
+• Bedroom: 26.13%<br>
+• Bathroom: 31.53%<br>
+• Stairs (In/Out): 12.61%<br>
+• Yard/Balcony: 12.61%<br>
+• Pavement/Crossing Road: 9.01%<br>
+• Other: 8.11%<br>
+
+<br>
+
+##### Fall Causes
+• Stumbling: 35.14%<br>
+• Sit/Stand: 9.91%<br>
+• Dizziness: 7.21%<br>
+• Reaching Something on High Position: 2.70%<br>
+• Other: 45.04%<br>
+
+<br>
+
+##### Fall Times
+• Morning (Right after waking up): 7.21%<br>
+• Daytime (On common activities): 40.54%<br>
+• Evening (Before bed): 23.42%<br>
+• Bedtime (When waking up at night): 28.83%<br>
