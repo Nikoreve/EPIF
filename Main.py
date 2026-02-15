@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import pickle
-import sklearn
 import streamlit as st
 import helper.utils as ut
 import helper.interventions as interv
@@ -15,7 +14,7 @@ logo_path = "./assets/images/logo/"
 
 # Configurations
 st.set_page_config(
-  page_title = "EPIF",
+  page_title = "EPIF",  
   page_icon = f"{logo_path}epif_logo.jpg",
   layout = 'centered',
   menu_items={
@@ -150,13 +149,13 @@ def input_validation(widget_names: list) -> str:
         fall_binary_input_error.append(label)
     
     # Join every unfilled input into a list
-    binary_label_errors = ", ".join(f"'{x}'" for x in fall_binary_input_error)
+    binary_labels_errors = ", ".join(f"'{x}'" for x in fall_binary_input_error)
     
     # Append error message
-    if (len(fall_index_labels_error) == 1):
-      errors.append(f"Field {binary_label_errors} must be filled.")
-    elif (len(fall_index_labels_error) > 0):
-      errors.append(f"Fields {binary_label_errors} must be filled.")
+    if (len(binary_labels_errors) == 1):
+      errors.append(f"Field {binary_labels_errors} must be filled.")
+    elif (len(binary_labels_errors) > 0):
+      errors.append(f"Fields {binary_labels_errors} must be filled.")
 
     # Format precisely the error message
     if errors: 
