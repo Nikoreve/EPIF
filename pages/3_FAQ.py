@@ -4,7 +4,7 @@ import json
 from streamlit_configuration import page_config as pc
 
 # Page configuration
-pc.streamlit_page_config("wide")
+pc.streamlit_page_config()
 
 # Load FAQs data
 @st.cache_resource

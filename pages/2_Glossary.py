@@ -38,6 +38,7 @@ st.markdown(
 st.space()
 st.space()
 
+st.caption("Interpretation of the risk factors")
 glossary = load_glossary()
 interpretation_cols = st.columns(2)
 incr_value = 0
