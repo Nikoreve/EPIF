@@ -1,19 +1,18 @@
 import streamlit as st
 import json
 import os
+from streamlit_configuration import page_config as pc
 
-logo_path = "./assets/images/logo/"
-st.set_page_config(
-  page_title="EPIF",
-  page_icon = f"{logo_path}epif_logo.jpg",
-  layout="centered"
-)
+# Page configuration
+pc.streamlit_page_config()
 
+# Load glossary data
 @st.cache_resource
 def load_glossary():
   """ Return the glossary data """
   with open('./data/glossary.json', 'r', encoding="utf-8") as glossary_file:
     return json.load(glossary_file)
+
 
 # "Risk factors section"
 st.header("Risk factors", divider="gray", text_alignment="center")

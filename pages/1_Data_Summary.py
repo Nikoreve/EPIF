@@ -1,18 +1,17 @@
 import streamlit as st
+from streamlit_configuration import page_config as pc
 
-logo_path = "./assets/images/logo/"
-st.set_page_config(
-  page_title="EPIF",
-  page_icon = f"{logo_path}epif_logo.jpg",
-  layout="wide"
-)
+# Page configuration
+pc.streamlit_page_config("wide")
 
+# Load overall summary data
 @st.cache_resource
 def load_overall_summary():
   file_name = 'overall_summary.txt'
   with open(f"data/summary/{file_name}", "r", encoding='utf-8') as overall_sum_file:
     return overall_sum_file.read()
 
+# Load clusters/risk-profiles summary data
 @st.cache_resource
 def load_clusters_summary():
   files = []

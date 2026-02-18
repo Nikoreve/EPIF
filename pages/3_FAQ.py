@@ -1,13 +1,12 @@
 import streamlit as st
 import json
 
-logo_path = "./assets/images/logo/"
-st.set_page_config(
-  page_title="EPIF",
-  page_icon = f"{logo_path}epif_logo.jpg",
-  layout="centered"
-)
+from streamlit_configuration import page_config as pc
 
+# Page configuration
+pc.streamlit_page_config("wide")
+
+# Load FAQs data
 @st.cache_resource
 def load_FAQs():
   """ Return the Frequently Asked Questions & Answers"""

@@ -7,26 +7,11 @@ import helper.utils as ut
 import helper.interventions as interv
 import shap
 import json
+from streamlit_configuration import page_config as pc
+# import time
 
-import time
-
-logo_path = "./assets/images/logo/"
-
-# Configurations
-st.set_page_config(
-  page_title = "EPIF",  
-  page_icon = f"{logo_path}epif_logo.jpg",
-  layout = 'centered',
-  menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': '''
-        ### Estimation and Personalised Interventions on :blue[elderly] Fallers (EPIF)
-        This application was developed by Nikolas Sarakenidis in the contenxt of his Master's thesis on Department of Information and Electronic Engineering at IHU, on fall-risk prediction and prevention in older adults. Supervisor professor of the project is Panagiotis Adamidis.
-        
-        Its purpose is to assist healthcare professionals, by providing a machine learning-based decision support tool for identifying fall-risk profiles and recommending personalized fall prevention interventions.
-        '''
-    })
+# Page configuration
+pc.streamlit_page_config()
 
 # Deserializing serialized data
 @st.cache_resource
@@ -44,6 +29,7 @@ def load_columns_types():
   with open('./data/columns_types.pkl', 'rb') as columns_types_file:
     return pickle.load(columns_types_file)
 
+# Load interventions data
 @st.cache_resource
 def load_intervention_data():
   """ Return the intervention data """
@@ -65,7 +51,7 @@ def functional_test_input(label, min, max, step, numeric_format, help_name):
   )
 
 
-# Call serialazed data structures
+# Call serialized data structures
 model = load_model()
 
 # -- Streamlit app --
